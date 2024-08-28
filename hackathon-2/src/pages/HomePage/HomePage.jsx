@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PromptList from "../../components/prompts/PromptList";
+import PastEntries from "../../components/PastEntriesList/PastEntries";
 import "./HomePage.scss";
 import axios from "axios";
 

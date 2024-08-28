@@ -5,6 +5,7 @@ import axios from 'axios';
 import Header from './components/Header/Header';
 import HomePage from './pages/HomePage/HomePage';
 import EntryPage from './pages/EntryPage/EntryPage';
+import PastEntries from './components/PastEntriesList/PastEntries';
 
 
 function App() {

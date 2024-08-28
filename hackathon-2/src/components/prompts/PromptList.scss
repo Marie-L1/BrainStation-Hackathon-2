@@ -3,36 +3,39 @@
     padding: 0;
     margin: 0;
     
-    
+    &-link{
+      text-decoration: none;
     .prompt-item {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background-color: #ffffff; // White background for contrast
+      background-color: #ffffff; 
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Soft shadow
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
       margin: 10px 0;
       padding: 15px 20px;
       transition: transform 0.2s, box-shadow 0.2s;
   
       &:hover {
-        transform: translateY(-5px); // Lift effect
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); // Stronger shadow on hover
+        transform: translateY(-5px); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
       }
   
       h2 {
-        font-size: 1.2em;
-        color: rgb(54, 94, 123); // Complementary color to rgb(131, 204, 240)
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
+        color: rgb(54, 94, 123); 
         margin: 0;
       }
   
       img {
         width: 50px;
         height: 50px;
-        border-radius: 50%; // Circular image
-        object-fit: cover; // Ensures image fits nicely within its container
+        border-radius: 50%; 
+        object-fit: cover; 
         margin-left: 20px;
       }
     }
+  }
   }
   
