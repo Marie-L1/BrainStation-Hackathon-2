@@ -11,4 +11,18 @@
         color: white;
         text-align: center;
     }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        gap: 30px;
+    }
+    &__nav-home, &__nav-entries{
+        &:hover{
+            color: rgb(155, 150, 150);
+        }
+    }
 }
