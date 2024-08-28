@@ -9,6 +9,7 @@ function PromptList({ promptsData }) {
           <h2>{promptItem.prompt}</h2>
           <img src={promptItem.image} alt={`Image of "${promptItem.prompt}"`} />
         </li>
+        //checking to merge with develop
       ))}
     </ul>
   );
