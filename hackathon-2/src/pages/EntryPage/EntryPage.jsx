@@ -1,4 +1,5 @@
 import React from 'react'
+import './EntryPage.scss'
 
 function EntryPage() {
   return (
