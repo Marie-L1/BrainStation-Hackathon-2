@@ -1,0 +1,22 @@
+@import '../../styles/variables';
+
+.entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    &__title{
+        padding: 20px;
+        width: 80vw;
+        border-radius: 4px;
+        border: 2px solid $secondary-color;
+    }
+    &__text-area{
+        padding: 100px;
+        width: 80vw;
+        border-radius: 4px;
+        border: 2px solid $secondary-color;
+    }
+}

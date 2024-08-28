@@ -7,29 +7,29 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background-color: #ffffff; 
+      background-color: #ffffff; // White background for contrast
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Soft shadow
       margin: 10px 0;
       padding: 15px 20px;
       transition: transform 0.2s, box-shadow 0.2s;
   
       &:hover {
-        transform: translateY(-5px); 
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        transform: translateY(-5px); // Lift effect
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); // Stronger shadow on hover
       }
   
       h2 {
         font-size: 1.2em;
-        color: rgb(54, 94, 123); 
+        color: rgb(54, 94, 123); // Complementary color to rgb(131, 204, 240)
         margin: 0;
       }
   
       img {
         width: 50px;
         height: 50px;
-        border-radius: 50%; 
-        object-fit: cover; 
+        border-radius: 50%; // Circular image
+        object-fit: cover; // Ensures image fits nicely within its container
         margin-left: 20px;
       }
     }
