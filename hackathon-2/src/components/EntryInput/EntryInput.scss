@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.entry{
+
+    &__title{
+        padding: 20px;
+        width: 80vw;
+    }
+    &__text-area{
+        padding: 100px;
+        width: 80vw;
+    }
+}
