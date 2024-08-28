@@ -1,0 +1,28 @@
+@import '../../styles/variables';
+
+.header{
+    background-color: rgb(131, 204, 240);
+    padding: 2.5rem;
+
+
+    &__title{
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        gap: 30px;
+    }
+    &__nav-home, &__nav-entries{
+        &:hover{
+            color: rgb(155, 150, 150);
+        }
+    }
+}
