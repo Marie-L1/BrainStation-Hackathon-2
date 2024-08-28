@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.prompt-entry{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+
+    &__img{
+        width: 75vw;
+        height: 30vh;
+    }
+    &__title{
+        color: $secondary-color;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+    }
+}
