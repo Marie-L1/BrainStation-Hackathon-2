@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
+import HomePage from './pages/HomePage/HomePage';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element="<HomePage />" />
+          <Route path="/" element={<HomePage /> }/>
           <Route path="/entry/:id" element="<HomePage />" />
         </Routes>
       </BrowserRouter>

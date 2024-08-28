@@ -1,15 +1,17 @@
-import React from 'react'
-import "./PromptList.scss"
+import React from 'react';
+import "./PromptList.scss";
 
-function PromptList() {
+function PromptList({ promptsData }) {
   return (
-    <div>
-      <h2>Your insights into the future of AI are enlightening! The intersection of technology and ethics is particularly thought-provoking. Keep us updated on the tech front!"
-    </h2>
-      <img src="#" attribute="#"/>
-      
-    </div>
-  )
+    <ul className="prompt-list">
+      {promptsData.map((promptItem) => (
+        <li key={promptItem.id} className="prompt-item">
+          <h2>{promptItem.prompt}</h2>
+          <img src={promptItem.image} alt={`Image of "${promptItem.prompt}"`} />
+        </li>
+      ))}
+    </ul>
+  );
 }
 
-export default PromptList
+export default PromptList;
