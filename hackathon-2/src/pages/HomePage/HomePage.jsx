@@ -16,7 +16,6 @@ function HomePage() {
     return (
       <div>
         <PromptList />
-        
       </div>
     )
   }
