@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.header{
+    background-color: rgb(131, 204, 240);
+    padding: 2.5rem;
+
+
+    &__title{
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-align: center;
+    }
+}
