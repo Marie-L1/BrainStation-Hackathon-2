@@ -5,6 +5,7 @@ import axios from "axios";
 
 function HomePage() {
   const [promptsData, setPromptsData] = useState([]);
+  
 
   const getPromptsData = async () => {
     try {
