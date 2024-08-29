@@ -2,7 +2,9 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-  
+    
+    &-link{
+      text-decoration: none;
     .prompt-item {
       display: flex;
       align-items: center;
@@ -20,7 +22,8 @@
       }
   
       h2 {
-        font-size: 1.2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
         color: rgb(54, 94, 123); 
         margin: 0;
       }
@@ -33,5 +36,6 @@
         margin-left: 20px;
       }
     }
+  }
   }
   
