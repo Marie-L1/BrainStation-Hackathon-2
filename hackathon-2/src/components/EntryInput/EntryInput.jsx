@@ -1,4 +1,5 @@
 import React from 'react'
+import './EntryInput.scss'
 
 function EntryInput({handleEntrySubmit}) {
   return (
